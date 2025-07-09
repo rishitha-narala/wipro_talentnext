@@ -13,7 +13,7 @@ public class Question11 {
         if (Character.isLowerCase(ch)) {
             
             char upper = Character.toUpperCase(ch);
-            System.out.println("Converted to uppercase: " + upper);
+            System.out.println("Converted to uppercase: " +upper);
         } else if (Character.isUpperCase(ch)) {
             
             char lower = Character.toLowerCase(ch);
