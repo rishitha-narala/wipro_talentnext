@@ -1,6 +1,6 @@
 package oops;
 import java.util.*;
-//Base class
+
 class Shape {
  public void draw() {
      System.out.println("Drawing Shape");
@@ -11,22 +11,22 @@ class Shape {
  }
 }
 
-//Subclass: Circle
+
 class Circle extends Shape {
- @Override
+
  public void draw() {
      System.out.println("Drawing Circle");
  }
 
- @Override
+
  public void erase() {
      System.out.println("Erasing Circle");
  }
 }
 
-//Subclass: Triangle
+
 class Triangle extends Shape {
- @Override
+
  public void draw() {
      System.out.println("Drawing Triangle");
  }
@@ -37,35 +37,34 @@ class Triangle extends Shape {
  }
 }
 
-//Subclass: Square
+
 class Square extends Shape {
- @Override
+ 
  public void draw() {
      System.out.println("Drawing Square");
  }
 
- @Override
+ 
  public void erase() {
      System.out.println("Erasing Square");
  }
 }
 
-//Main class to demonstrate polymorphism
+
 public class ShapeTest {
  public static void main(String[] args) {
-     // Polymorphic references
+     
      Shape c = new Circle();
      Shape t = new Triangle();
      Shape s = new Square();
 
-     // Calling overridden methods
-     c.draw();    // Drawing Circle
-     c.erase();   // Erasing Circle
+     c.draw();    
+     c.erase();   
 
-     t.draw();    // Drawing Triangle
-     t.erase();   // Erasing Triangle
+     t.draw();    
+     t.erase();   
 
-     s.draw();    // Drawing Square
-     s.erase();   // Erasing Square
+     s.draw();    
+     s.erase();  
  }
 }

@@ -6,7 +6,7 @@ public class RemoveStars {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {
-            // If current char is '*' or next to '*', skip it
+           
             if (str.charAt(i) == '*') {
                 continue;
             }
@@ -23,24 +23,23 @@ public class RemoveStars {
     }
 
     public static void main(String[] args) {
-        // Example 1
+        
         String input1 = "ab*cd";
         System.out.println("Input: " + input1);
-        System.out.println("Output: " + removeStarAndNeighbors(input1)); // Output: ad
+        System.out.println("Output: " + removeStarAndNeighbors(input1)); 
 
-        // Example 2
+        
         String input2 = "ab**cd";
         System.out.println("Input: " + input2);
-        System.out.println("Output: " + removeStarAndNeighbors(input2)); // Output: ad
-
-        // Example 3
+        System.out.println("Output: " + removeStarAndNeighbors(input2)); 
+       
         String input3 = "a*b*c";
         System.out.println("Input: " + input3);
-        System.out.println("Output: " + removeStarAndNeighbors(input3)); // Output: (empty)
+        System.out.println("Output: " + removeStarAndNeighbors(input3)); 
 
-        // Example 4
+        
         String input4 = "hello*world";
         System.out.println("Input: " + input4);
-        System.out.println("Output: " + removeStarAndNeighbors(input4)); // Output: hellrld
+        System.out.println("Output: " + removeStarAndNeighbors(input4)); 
     }
 }

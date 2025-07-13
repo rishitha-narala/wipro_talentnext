@@ -10,15 +10,15 @@ public class ShortLongShort {
     }
 
     public static void main(String[] args) {
-        // Example 1
+       
         String str1 = "hi";
         String str2 = "hello";
         String result = combineStrings(str1, str2);
-        System.out.println("Output: " + result);  // hihellohi
+        System.out.println("Output: " + result);  
 
-        // Example 2
+        
         String str3 = "abc";
         String str4 = "z";
-        System.out.println("Output: " + combineStrings(str3, str4));  // zabcz
+        System.out.println("Output: " + combineStrings(str3, str4)); 
     }
 }
