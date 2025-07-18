@@ -4,17 +4,17 @@ import java.util.*;
 class Person {
     private String name;
 
-    // Constructor
+
     public Person(String name) {
         this.name = name;
     }
 
-    // Getter
+  
     public String getName() {
         return name;
     }
 
-    // Setter
+  
     public void setName(String name) {
         this.name = name;
     }
@@ -46,7 +46,7 @@ class Employee extends Person {
         return nationalInsuranceNumber;
     }
 
-    // Setters
+   
     public void setAnnualSalary(double annualSalary) {
         this.annualSalary = annualSalary;
     }

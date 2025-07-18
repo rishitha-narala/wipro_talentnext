@@ -6,9 +6,9 @@ public class Question7 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of values: ");
-        String nStr = sc.nextLine();  // take number of values as String
+        String nStr = sc.nextLine();  
 
-        // Convert string to integer
+         
         int n = Integer.parseInt(nStr);
 
         if (n == 0) {
